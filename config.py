@@ -11,13 +11,17 @@ HEADERS = {
 # ------ URL -------
 URL_LOGIN_HOME = 'https://mp.toutiao.com/login/'
 
-# ------ selenium相关设置 ------
+# ------ selenium、滑块相关设置 ------
 CHROME_PATH = '/usr/local/bin/chromedriver'
 IMG_BIG_PATH = 'img/big.png'
 IMG_BLOCK_PATH = 'img/block.png'
 IMG_S_BIG_PATH = 'img/big_s.png'
 IMG_S_BLOCK_PATH = 'img/block_s.png'
-
+LOGIN_VERIFY = 'captcha_verify_img--wrapper'
+SLIDER_BTN_CLASS = 'secsdk-captcha-drag-icon'
+VALIDATE_CLASS = 'validate-main'
+## 滑块微调距离
+SLIDER_DEBUG = 25
 
 
 # ------ 日志设置 ------
