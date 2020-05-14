@@ -26,15 +26,15 @@ class SliderHelper:
         self.driver = webdriver.Chrome(executable_path=CHROME_PATH, options=chrome_options)
 
     @inited
-    def login(self, username=USERNAME, password=PASSWORD):
-        self.username = username
-        self.password = password
+    def login(self):
+        self.username = USERNAME
+        self.password = PASSWORD
         self.driver.get(URL_LOGIN_HOME)
         self.__account_input()
         self._slider_img_download()
         self._validate_and_drag(DOWN=LOGIN_VERIFY)
         logger.info(f'成功滑动登陆!')
-        self.stop()
+        # self.stop()
 
     # 账号登录
     def __account_input(self):

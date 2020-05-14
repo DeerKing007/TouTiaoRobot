@@ -5,8 +5,8 @@ class TTAcount:
     def __init__(self):
         self.helper = SliderHelper()
 
-    def login(self, username=USERNAME, password=PASSWORD):
-        self.login_headers = self.helper.login(username=username, password=password)
+    def login(self):
+        self.login_headers = self.helper.login()
 
 
 if __name__ == '__main__':

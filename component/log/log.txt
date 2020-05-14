@@ -1,1 +1,5 @@
 2020-05-14 16:30:28 component.sliderlogin(INFO) - 识别错误，滑动失败.重新滑动
+2020-05-14 18:50:50 component.sliderlogin(INFO) - 识别错误，滑动失败.重新滑动
+2020-05-14 18:51:31 component.sliderlogin(INFO) - 识别错误，滑动失败.重新滑动
+2020-05-14 18:52:11 component.sliderlogin(INFO) - 识别错误，滑动失败.重新滑动
+2020-05-14 18:52:50 component.sliderlogin(INFO) - 成功滑动登陆!
